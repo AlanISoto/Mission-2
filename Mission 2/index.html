@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poco Loco Web</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div id="poco-loco-picture">
+        <div class="navigation">
+          <div class="button"><a href="#">Home</a></div>
+          <div class="button"><a href="#">Reservations</a></div>
+          <div class="button"><a href="#">About</a></div>
+          <div class="button"><a href="#">Contact</a></div>
+          <div class="button"><a href="#">Menu</a></div>
+        </div>
+      </div>
+    </header>
+    <div class="card">
+      <div class="text-wrapped">
+        <h2>Our Story</h2>
+        <p>
+          We have been serving Franklin since 2004 with amazing tapas and an
+          atmosphere to match. Our recipes are authentic and time-tested. The
+          ingredients are always fresh and the result is a menu that bursts with
+          flavour.
+        </p>
+      </div>
+      <div class="frente animation antianimation">
+        <img src="/Media/Frente.jpg" alt="frente restaurant" />
+        <img src="/Media/Interior.jpg" alt="Interior restaurant" />
+        <img src="/Media/Comida.jpg" alt="Food restaurant" />
+      </div>
+    </div>
+    <div class="card1 inverted">
+      <div class="text-wrapped1">
+        <h2>Mission</h2>
+        <p>
+          Our mission is for everyone to experience the joy of eating fabulous,
+          fresh food with friends, family and loved ones over a shared meal.
+          Tapas means 'lids' and is a traditional Mediterranean way of eating
+          shared snack size dishes. Its a delightful way to enjoy food as you
+          can mix and match depending on your appetite and taste buds. By its
+          nature tapas encourages conversation which is so important in a time
+          where technology rules. Put down the phone, talk to your companion and
+          enjoy a fabulous eating experience!
+        </p>
+      </div>
+      <div class="frente animation">
+        <img src="/Media/Dessert.jpg" alt="Dessert in hand" />
+        <img src="/Media/Paella.jpg" alt="Picture of paella" />
+        <img src="/Media/Cocktail.jpg" alt="Picture of Cocktail" />
+      </div>
+    </div>
+    <div class="selectMenu">
+      <h2>Select Menu</h2>
+      <div>
+        <button id="sliders">Sliders</button>
+        <br />
+        <br />
+        <button id="empanadas">Empanadas</button>
+        <br />
+        <br />
+        <button id="cordero">Cordero</button>
+        <br />
+        <br />
+        <button id="prawns">Prawns</button>
+      </div>
+      <div class="selectedDishes">
+        <h2>Selected dishes</h2>
+        <div id="selected">
+          <p id="packSliders">Sliders</p>
+          <p id="slidersAmount">0</p>
+          <p id="packEmpanadas">Empanadas</p>
+          <p id="empanadasAmount">0</p>
+          <p id="packCordero">Cordero</p>
+          <p id="corderoAmount">0</p>
+          <p id="packPrawns">Prawns</p>
+          <p id="prawnsAmount">0</p>
+        </div>
+      </div>
+    </div>
+    <div class="form-wrapped">
+      <div class="form">
+        <h2>Contact Form</h2>
+
+        <form>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" /><br />
+          <label for="email">Email:</label><br />
+          <input type="mail" id="email" name="email" /><br /><br />
+          <label class="info">Subject</label>
+          <label> <input type="radio" name="subject" />Bookings</label>
+          <label> <input type="radio" name="subject" />Ordering</label>
+          <label> <input type="radio" name="subject" />Delivery</label>
+          <br />
+
+          <label>
+            Message <br />
+
+            <textarea></textarea>
+          </label>
+          <div class="submit">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
